@@ -1,0 +1,48 @@
+h1 {
+    color: white;
+    font-size: 5.5rem;
+    font-family: "Space Mono", monospace;
+}
+
+h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-family: "Space Mono", monospace;
+}
+
+h3 {
+    color: white;
+    font-size: 2.5rem;
+    font-family: "Space Mono", monospace;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    background-color: black;
+}
+
+input[type="text"] {
+    caret-color: transparent;
+    background: none;
+    border: none;
+    outline: none;
+    font-family: "Space Mono", monospace;
+    font-size: 6rem;
+    color: #ffffff;  
+    display:none;
+  }
+
+  .cursor {
+    border-left: 10px 10px solid #fff;
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    100% {
+      opacity: 0;
+    }
+  }
