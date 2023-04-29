@@ -1,0 +1,69 @@
+#blob {
+    z-index: -1;
+    background-color: white;
+    height: 550px;
+    aspect-ratio: 1;
+    position: absolute;
+    left:50%;
+    top:50%;
+    translate: -50% -50%;
+    border-radius: 50%;
+    background: linear-gradient(to right, rgb(0, 110, 255), rgb(247, 151, 151) );
+    animation: rotation 10s infinite;
+    animation: blink 3s;
+    /* animation: pulsate 30s step-end infinite; */
+    filter:blur(200px);
+}
+
+body{
+    background-color: black;
+    font-family: 'Poppins';
+    
+}
+
+h1{
+    color: white;   
+    font-size: 10rem;
+}
+
+h2{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 8rem;
+}
+
+p{
+    color: white;
+    font-size: 1rem;
+}
+
+@keyframes rotation{
+    from{
+        rotate:0deg;
+    }
+    50%{
+        scale: 1 2;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+
+@keyframes blink {
+    from{
+        opacity: 0;
+    }
+   
+    to{
+      opacity: 1;
+    }
+  }
+
+  /* @keyframes pulsate {
+    0% {background: linear-gradient(to right, rgb(86, 247, 94), rgb(251, 252, 251) )}
+    20% {background: linear-gradient(to right, aquamarine, mediumpurple )}
+    40% {background: linear-gradient(to right, rgb(100, 250, 132), rgb(248, 73, 210) )}
+    60% {background: linear-gradient(to right, rgb(255, 251, 31), rgb(255, 143, 69) )}
+    80% {background: linear-gradient(to right, rgb(252, 252, 252), rgb(247, 151, 151) )}
+    100% {background: linear-gradient(to right, rgb(0, 110, 255), rgb(146, 115, 230) )}
+} */

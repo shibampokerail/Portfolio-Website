@@ -1,0 +1,85 @@
+h1 {
+    color: white;
+    font-size: 5.5rem;
+    font-family: "Space Mono", monospace;
+}
+
+h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-family: "Space Mono", monospace;
+}
+
+h3 {
+    color: white;
+    font-size: 2.5rem;
+    font-family: "Space Mono", monospace;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+input[type="text"] {
+    caret-color: transparent;
+    background: none;
+    border: none;
+    outline: none;
+    font-family: "Space Mono", monospace;
+    font-size: 6rem;
+    color: #ffffff;  
+    display:none;
+  }
+
+  .cursor {
+    border-left: 10px 10px solid #fff;
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    100% {
+      opacity: 0;
+    }
+  }
+
+  nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3%;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    font-family: "Space Mono", monospace;
+    font-size: 2rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ffffff;
+    color: black;
+  }
