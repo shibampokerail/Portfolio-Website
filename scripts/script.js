@@ -7,7 +7,7 @@ var command_actions = {
     "about":{mode:"about", response:"Hi, my name is Shibam Pokhrel! When it comes to programming, I don't mess around and I love to work hard. My diverse skillset includes Python, Flask, Django, Flutter, PostgreSQL, C++, Java, JavaScript, HTML5, Tailwind CSS, Git, and React. So, if you need a coding wizard to work on your project, you know who to call!"},
     "calc":{mode:"link", link:"https://www.shibampokhrel.com/calculator/", response:"opening calculator..." },
     "calculator":{mode:"link", link:"https://www.shibampokhrel.com/calculator/", response:`opening calculator...`},
-    "projects":{mode:"link", link:"/projects.html", response:"Launching projects..."},
+    "projects":{mode:"link", link:"https://github.com/shibampokerail", response:"opening github..."},
     "github":{mode:"link", link:"https://github.com/shibampokerail", response:"opening github..."},  
     "linkedin":{mode:"link", link:"https://www.linkedin.com/in/shibam-pokhrel-a46943215/", response:"opening linkedin..."},
     "contact":{mode:"about", response:"Let's connect, work together, have a few laughs, and create some amazing projects! You can always email me at <u>pokhrelshibam@gmail.com</u> or leave a message on my linkedin or github."},
